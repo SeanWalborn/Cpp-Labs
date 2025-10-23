@@ -1,2 +1,2 @@
 # Cpp-Labs
-Labs from my intro C++ class 
+Beginning my journey in coding with coursework from my C++ class.

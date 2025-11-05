@@ -2,7 +2,7 @@
 Lab: 16 Problem 02 
 Name: Sean Walborn 
 ID: 10763229
-Submission Date: 11/01/25
+Submission Date: 11/04/25
 */
 
 /*
@@ -18,13 +18,12 @@ Submission Date: 11/01/25
 using namespace std;
 
 // helper function declarations
-void createPoly(string, LinkedList& ); // creates a polynomial
-void sumPoly(LinkedList, LinkedList, LinkedList&); // sums two polynomials
+void createPoly(string, polynomialList& ); // creates a polynomial
 
 int main(){
-    LinkedList poly1;
-    LinkedList poly2;
-    LinkedList poly3;
+    polynomialList poly1;
+    polynomialList poly2;
+    polynomialList poly3;
     string fileName1;
     string fileName2;
 
@@ -39,12 +38,12 @@ int main(){
     createPoly(fileName2, poly2);
 
     //printing two poly after creation
-    poly1.printList();
-    poly2.printList();
+    cout << poly1;
+    cout << poly2
 
     // adding two polynomials together and printing sum
-    sumPoly(poly1, poly2, poly3);
-    poly3.printList();
+    poly3 = poly1 + poly2;
+    cout << poly3;
 
    
 
@@ -54,12 +53,8 @@ int main(){
 
 // helper funciton definitions
  // creates a polynomial
-void createPoly(string fileName, Node*& p ){
+void createPoly(string fileName, node*& p ){
 
 }
 
-// sums polynomial a and b into a new polynomial c
-void sumPoly(Node* a, Node* b , Node*& c){
-
-}
 

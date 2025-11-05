@@ -1,17 +1,30 @@
-#include "Node.cpp"
-#include "Polynomial.cpp"
+#include "node.cpp"
+#include "term.cpp"
 
 using namespace std;
 
-class LinkedList{
-    public: 
-        LinkedList();
-        ~LinkedList();
+class polynomialList{
+    public:
+        // constructors / destructor / copy constructor
+        polynomialList();
+        polynomialList(node* n);
+        polynomialList(const polynomialList& p);
+        ~polynomialList();
 
-        void insert(Polynomial data); // adds a polynomial to the front of the list
-        void remove(Polynomial data); // removes the top polynomial
-        void printList() const; // prints the linked list
+        
+        // setters - adds new node to the front of the node
+        void insertFront(node* n);
+        
+        // getters - removes node from the front of the list
+        node* removeFront();
 
+        // operators
+        polynomialList& operator=(const polynomialList& rightSide);
+
+        // friends
+        friend polynomialList operator+(polynomialList&, polynomialList& );
+        friend ostream& operator<<(ostream& os, const polynomialList& );
+        
     private:
-        Node* head = nullptr;
+        node* head = nullptr;
 };

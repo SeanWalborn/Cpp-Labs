@@ -1,3 +1,6 @@
+#ifndef term_h 
+#define term_h
+
 #include <iostream>
 
 using namespace std;
@@ -20,3 +23,5 @@ class term {
         int coef;
         int degree;
 };
+
+#endif

@@ -11,8 +11,7 @@ Submission Date: 11/04/25
 
 #include <iostream>
 #include <iomanip>
-#include "node.cpp" // compiler wont use .h
-#include "term.cpp" 
+#include <fstream> 
 #include "polynomialList.cpp"
 
 using namespace std;
@@ -27,34 +26,54 @@ int main(){
     string fileName1;
     string fileName2;
 
-    // collecting file names
+    // collecting file names and creating polynomial
     cout << "Enter file name 1: ";
     cin >> fileName1;
+     createPoly(fileName1, poly1);
+
     cout << "Enter file name 2: ";
     cin >> fileName2;
-
-    // opening files and creating linked lists
-    createPoly(fileName1, poly1);
     createPoly(fileName2, poly2);
 
+
     //printing two poly after creation
-    cout << poly1;
-    cout << poly2
+    cout << "Polynomial 1: " << poly1 << endl;
+    cout << "Polynomial 2: " << poly2 << endl;
 
     // adding two polynomials together and printing sum
     poly3 = poly1 + poly2;
-    cout << poly3;
-
-   
-
-
+    cout << "Sum: " << poly3;
 
 }
 
 // helper funciton definitions
  // creates a polynomial
-void createPoly(string fileName, node*& p ){
+void createPoly(string fileName, polynomialList& pList ){
+    //variables used
+    int coef = 0; // hold coef
+    int degree = 0; // holds degree
+    node* temp = nullptr; // node used to add to linked list
+            
+    // opening file
+    ifstream polyFile;
+    polyFile.open(fileName);
 
+    // check if file opened
+    if (polyFile.fail()){
+        cout << "file error" << endl;
+        exit(1);
+    }
+
+    while(polyFile >> coef >> degree){
+        temp = new node();
+        temp->data.setCoef(coef);
+        temp->data.setDegree(degree);
+        pList.insertRear(temp);
+
+    }
+
+    
+    polyFile.close();
 }
 
 

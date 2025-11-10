@@ -1,16 +1,26 @@
 
        #include "node.h"
-       #include "term.cpp"
+       #include "term.h"
 
        using namespace std;
 
        // constructors
         node::node(){
-            data = term();
+            data.setCoef(0);
+            data.setDegree(0);
             link = nullptr;
         }
 
+        node::node(term data){
+            this->data.setCoef(data.getCoef());
+            this->data.setDegree(data.getDegree());
+            this->link = nullptr;
+        }
+
         node::node(term data, node* link){
-            this->data = data;
+            this->data.setCoef(data.getCoef());
+            this->data.setDegree(data.getDegree());
             this->link = link;
         }
+
+

@@ -1,3 +1,7 @@
+#ifndef polynomialList_h 
+#define polynomialList_h
+
+
 #include "node.cpp"
 #include "term.cpp"
 
@@ -14,9 +18,10 @@ class polynomialList{
         
         // setters - adds new node to the front of the node
         void insertFront(node* n);
+        void insertRear(node* n);
         
         // getters - removes node from the front of the list
-        node* removeFront();
+        void removeFront();
 
         // operators
         polynomialList& operator=(const polynomialList& rightSide);
@@ -28,3 +33,5 @@ class polynomialList{
     private:
         node* head = nullptr;
 };
+
+#endif

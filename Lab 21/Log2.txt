@@ -1,0 +1,13 @@
+Alice enter
+Bob enter
+Cindy enter
+Dolly enter
+Bob leave
+Eve enter
+Paul enter
+Kylie enter
+Peter enter
+Eve leave
+Terry enter
+Sonia enter
+Paul leave

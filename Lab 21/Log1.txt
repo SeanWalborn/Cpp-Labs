@@ -1,0 +1,4 @@
+Alice enter
+Bob enter
+Cindy enter
+Bob leave 

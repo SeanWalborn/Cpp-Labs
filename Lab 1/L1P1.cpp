@@ -1,9 +1,4 @@
-/* 
-Lab: 01 Problem 1 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 09/02/2025
-*/
+
 
 #include <iostream>
 using namespace std;
@@ -63,6 +58,7 @@ int maxNum(int data, int& max1, int& max2){
         }
     }
 }
+
 
 
 

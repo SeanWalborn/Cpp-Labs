@@ -1,8 +1,5 @@
 /* 
-Lab: 07 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/05/25
+
 */
 
 #include <iomanip>
@@ -97,4 +94,5 @@ void print2Darr(int** a, int b[], int l){
     }
 
     cout << endl;
+
 }

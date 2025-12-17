@@ -1,8 +1,5 @@
 /* 
-Lab: 07 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/05/25
+
 */
 
 #include <iomanip>
@@ -113,4 +110,5 @@ void copyArray(int a[], int length, int b[]){
     for (int i = 0; i < length; i++){
         b[i] = a[i];
     }
+
 }

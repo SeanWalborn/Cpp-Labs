@@ -1,8 +1,4 @@
 /* 
-Lab: 11 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/7/25
 */
 
 
@@ -44,4 +40,5 @@ int main(){
     cout << "Subtraction" << setw(7) << ": " << c4 << endl;
     cout << "Multiplication" << setw(4) << ": " << c5 << endl;
     
+
 }

@@ -1,10 +1,3 @@
-/* 
-Lab: 14 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/26/25
-*/
-
 /*
     program that collects integers from user input and stores them in a linked list in ascending order and displays the linked list to the user
     runs until -1 is entered to stop the program. 
@@ -174,4 +167,5 @@ void deleteLinkedList(Node*& h){
         h = h -> link;
         delete temp;
     }
+
 }

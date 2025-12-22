@@ -1,9 +1,3 @@
-/* 
-Lab: 14 Problem 02 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/26/25
-*/
 
 /*
     program that collects integers from user input and stores them in a linked list and displays the linked list to the user
@@ -121,4 +115,5 @@ void deleteLinkedList(Node*& h){
         h = h -> link;
         delete temp;
     }
+
 }

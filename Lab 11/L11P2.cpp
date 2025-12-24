@@ -1,9 +1,5 @@
-/* 
-Lab: 11 Problem 02 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/07/25
-*/
+
+
 
 #include <iomanip>
 #include <iostream>
@@ -181,4 +177,5 @@ int main()
     cout << "r1 * r2 = " << r5 << endl;
     cout << "r1 / r2 = " << r6 << endl;
     
+
 }

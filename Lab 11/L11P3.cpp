@@ -1,8 +1,5 @@
 /* 
-Lab: 11 Problem 03 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/07/25
+
 */
 
 #include <iostream>
@@ -125,3 +122,4 @@ HS_Student mathHighScore(HS_Student s1, HS_Student s2){
         return s2;
     }
 }
+

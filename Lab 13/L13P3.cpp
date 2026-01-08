@@ -1,11 +1,3 @@
-
-/* 
-Lab: 13 Problem 03 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/10/25
-*/
-
 #include <iostream>
 
 using namespace std;
@@ -123,4 +115,5 @@ void findInt(Node* head, int a){
     }else{
         cout << a << " not exist in the list";
     }
+
 }

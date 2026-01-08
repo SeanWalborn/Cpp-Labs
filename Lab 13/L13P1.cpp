@@ -1,10 +1,3 @@
-/* 
-Lab: 13 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/10/25
-*/
-
 #include <iostream>
 
 using namespace std;
@@ -85,4 +78,5 @@ void deleteList(Node* head){
         current = current->link;
         delete tempNode;
     }
+
 }

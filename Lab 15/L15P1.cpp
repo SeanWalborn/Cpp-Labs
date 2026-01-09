@@ -1,10 +1,3 @@
-/* 
-Lab: 15 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/26/25
-*/
-
 /*
     Program that creates two sorted linked lists and merges them, it is assumed that there are no duplicate numbers
     all memory is freed when the program ends. Main funciton is provided
@@ -210,4 +203,5 @@ void printLinkedList(node* h){
     }
 
     cout << "->NULL" << endl;
+
 }

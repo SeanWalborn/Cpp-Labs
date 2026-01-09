@@ -1,9 +1,3 @@
-/* 
-Lab: 16 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 11/01/25
-*/
 
 /*
     Program that is provided two numbers in an array form. each index in the array represents a place value tens, hundred etc. with index 0 being the largest value, index [0] is never 0. the program creates a linked list with each array and then sums the two numbers. The two numbers are presented to the user as well as the sum. In order to sum the numbers the linked lists are reversed so that the place values can be added to their mathcing place value. Memory is freed at the end
@@ -194,3 +188,4 @@ void deleteLinkedList(node* n){
         delete temp;
     }
 }
+

@@ -1,9 +1,3 @@
-/* 
-    Lab: 17 Problem 03 
-    Name: Sean Walborn 
-    ID: 10763229
-    Submission Date: 11/09/25
-*/
 
 /*
     Program that evaluates a polynomial using horner's rule. the program collects the file name and value for x from the user, then uses recursion to evaluate the polynomials.
@@ -116,4 +110,5 @@ double evalPoly(double* coef, int size, double x){
     }
 
     return (coef[0] + x * evalPoly(coef+1, size-1, x));
+
 }

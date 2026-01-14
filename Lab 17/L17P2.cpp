@@ -1,10 +1,3 @@
-/* 
-    Lab: 17 Problem 02 
-    Name: Sean Walborn 
-    ID: 10763229
-    Submission Date: 11/09/25
-*/
-
 /*
     Program that creates a static array with ten slots and fills them with random number between 1 and 10. the numbers can repeat. 
     a recursive helper function adds all the integers together and displays to the user
@@ -62,4 +55,5 @@ int sumArray(int a[],  int count){
     } 
 
     return(a[count] + sumArray(a, count+1));
+
 }

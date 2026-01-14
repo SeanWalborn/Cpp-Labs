@@ -1,10 +1,3 @@
-/* 
-    Lab: 17 Problem 01 
-    Name: Sean Walborn 
-    ID: 10763229
-    Submission Date: 11/09/25
-*/
-
 /*
     Program that collects an integer from the user and then uses recursion to calculate the sum of the digits. the input number is alway positive. runs until users ends the program
 */
@@ -53,4 +46,5 @@ int sumInput(int a){
     
     // returns the tens place digit plus the sum of the recursion - the recursion cuts off the tens place every time it runs
     return(a%10 + sumInput(a/10));
+
 }

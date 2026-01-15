@@ -1,9 +1,3 @@
-/* 
-Lab: 08 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/05/25
-*/
 
 #include <iomanip>
 #include <iostream>
@@ -93,5 +87,6 @@ int main(){
 void printStudent(Student s){
     cout << s.id << setw(10) << s.name << setw(5) << s.score << endl;
 }
+
 
 

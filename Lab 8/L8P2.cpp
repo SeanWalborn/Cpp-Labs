@@ -1,9 +1,4 @@
-/* 
-Lab: 08 Problem 02 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/05/25
-*/
+
 
 #include <iomanip>
 #include <iostream>
@@ -156,4 +151,5 @@ void printPoly(DynArr a){
 
     cout << endl;
     
+
 }

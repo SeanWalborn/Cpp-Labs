@@ -1,9 +1,4 @@
-/* 
-Lab: 09 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 09/25/25
-*/
+
 
 #include <iomanip>
 #include <iostream>
@@ -175,4 +170,5 @@ void Rational::reduce(){
 //     cout << "r1 * r2 = "; r5.print();
 //     cout << "r1 / r2 = "; r6.print();
 //     return 0;
+
 // }

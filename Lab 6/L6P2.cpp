@@ -1,9 +1,3 @@
-/* 
-Lab: 06 Problem 02 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 9/11/25
-*/
 
 #include <iomanip>
 #include <iostream>
@@ -83,3 +77,4 @@ int main(){
     }
 
 }
+

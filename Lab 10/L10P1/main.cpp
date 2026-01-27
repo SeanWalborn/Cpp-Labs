@@ -1,10 +1,3 @@
-/* 
-Lab: 10 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 9/28/25
-*/
-
 
 #include "complex.cpp" // compiler wont let me use .h
 #include <iostream>
@@ -49,6 +42,7 @@ int main(){
     c4.print();
     cout << "Multiplication" << setw(4) << ":";
     c5.print();
+
 
 
 

@@ -1,9 +1,3 @@
-/* 
-Lab: 15 Problem 02 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/26/25
-*/
 
 /*
     Program that creates two sorted linked lists and merges them, it is assumed that there are no duplicate numbers
@@ -185,4 +179,5 @@ void printLinkedList(node* h){
     }
 
     cout << "->NULL" << endl;
+
 }

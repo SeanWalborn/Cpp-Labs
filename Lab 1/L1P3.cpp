@@ -1,9 +1,4 @@
-/* 
-Lab: 01 Problem 3 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 09/04/2025
-*/
+
 
 #include <iostream>
 #include <random>
@@ -81,4 +76,5 @@ void printArray(int array1[], int length){
         cout << array1[i] << " ";
     }
     cout << endl;
+
 }

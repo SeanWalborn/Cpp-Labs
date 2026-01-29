@@ -1,9 +1,3 @@
-/* 
-Lab: 12 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 10/09/25
-*/
 
 #include <iostream>
 #include <fstream>
@@ -80,5 +74,6 @@ Polynomial openFile(string f){
     delete[]polyArr;
     
     return p;
+
 
 }

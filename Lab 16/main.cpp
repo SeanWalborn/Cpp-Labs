@@ -1,10 +1,3 @@
-/* 
-Lab: 16 Problem 02 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 11/04/25
-*/
-
 /*
     Program thats generates polynomials using a linked list and finds the sum of two polynomials. polynomial, node, and linkedlist are all classes. input is read from two files the polynomial format in the files is "coefficient " "x" "^" "exponent." the two polynomials and their sum are displayed for the user.
 */
@@ -75,5 +68,6 @@ void createPoly(string fileName, polynomialList& pList ){
     
     polyFile.close();
 }
+
 
 

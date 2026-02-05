@@ -1,9 +1,3 @@
-/* 
-Lab: 02 Problem 03 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 09/05/25
-*/
 
 #include <iostream>
 #include <iomanip>
@@ -93,5 +87,6 @@ void filterArr(int startArr[], int endArr[], int length, int& count){
             count++; 
         }
     }
+
 
 }

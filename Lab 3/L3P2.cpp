@@ -1,9 +1,4 @@
-/* 
-Lab: 03 Problem 02 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 09/07/25
-*/
+
 
 #include <iostream>
 #include <iomanip>
@@ -57,4 +52,5 @@ void longestString(ifstream &songFile, string &longest){
             
         }
 }
+
 

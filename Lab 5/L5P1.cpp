@@ -1,9 +1,4 @@
-/* 
-Lab: 05 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 09/09/25
-*/
+
 
 #include <iostream>
 #include <iomanip>
@@ -81,4 +76,5 @@ int main()
     cout << "-------------------------------" << endl;
     printArray(A);
     return 0;
+
 }

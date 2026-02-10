@@ -1,9 +1,3 @@
-/* 
-Lab: 04 Problem 01 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 09/07/25
-*/
 
 #include <iostream>
 #include <algorithm>
@@ -100,5 +94,6 @@ bool checkPrime(int userInput){
     }
 
     return true;
+
 
 }

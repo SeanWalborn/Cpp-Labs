@@ -1,9 +1,3 @@
-/* 
-    Lab: 18 Problem 02 
-    Name: Sean Walborn 
-    ID: 10763229
-    Submission Date: 11/09/25
-*/
 
 /*
     - Program that collects integers from the user one by one and adds them into a linked list in the order they are entered
@@ -133,4 +127,5 @@ void deleteLinkedList(Node*& h){
         delete temp;
     }
 }
+
 

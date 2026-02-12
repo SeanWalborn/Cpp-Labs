@@ -1,9 +1,4 @@
-/* 
-    Lab: 21 Problem 01
-    Name: Sean Walborn 
-    ID: 10763229
-    Submission Date: 11/29/25
-*/
+
 
 /*
     - Program that merges two sorted vectors into one new one
@@ -91,5 +86,6 @@ int main(){
     for (int val:v3){
         cout << val << " ";
     }
+
 
 }

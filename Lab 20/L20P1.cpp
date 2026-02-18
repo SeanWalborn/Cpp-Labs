@@ -1,10 +1,3 @@
-/* 
-    Lab: 20 Problem 01 
-    Name: Sean Walborn 
-    ID: 10763229
-    Submission Date: 11/27/25
-*/
-
 /*
     - Program that computes the median of an array
     - demonstartes use of template 
@@ -57,5 +50,6 @@ void findMedian(){
 
 };
 void printArray(){
+
 
 };

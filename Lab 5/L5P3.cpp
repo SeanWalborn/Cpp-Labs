@@ -1,9 +1,4 @@
-/* 
-Lab: 05 Problem 03 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 09/09/25
-*/
+
 
 #include <iomanip>
 #include <iostream>
@@ -143,3 +138,4 @@ void commonElements(int A[], int aLen, int B[], int bLen, int C[], int cLen, int
     }
     
 }
+

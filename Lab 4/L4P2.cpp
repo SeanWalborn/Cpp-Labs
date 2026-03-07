@@ -1,8 +1,5 @@
 /* 
-Lab: 04 Problem 02 
-Name: Sean Walborn 
-ID: 10763229
-Submission Date: 09/07/25
+
 */
 
 #include <iostream>
@@ -72,4 +69,5 @@ void rearrangeArray(int numArr[]){
     }
 
     
+
 }

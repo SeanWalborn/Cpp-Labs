@@ -1,9 +1,3 @@
-/* 
-    Lab: 18 Problem 03 
-    Name: Sean Walborn 
-    ID: 10763229
-    Submission Date: 11/09/25
-*/
 
 /*
     - program that created two sorted linked list and merges them.
@@ -216,4 +210,5 @@ void printLinkedList(node* h){
     }
 
     cout << "->NULL" << endl;
+
 }
